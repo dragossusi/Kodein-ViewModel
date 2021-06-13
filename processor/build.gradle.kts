@@ -18,6 +18,10 @@ dependencies {
 
     //idk what this is for
     implementation("com.google.auto.service:auto-service:1.0")
+
+    //todo migrate to this because it supports multiplatform
+    // implementation("de.jensklingenberg:mpapt-runtime:0.8.7")
+
     kapt("com.google.auto.service:auto-service:1.0")
 }
 
